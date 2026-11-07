@@ -1,0 +1,5 @@
+modelo,tipo,parametros,exhaustividad,precision,exactitud,cumple,elegido
+Línea base (clase más frecuente),linea base,0,0.0,0.0,0.5,False,False
+TF-IDF + densa (peso neg. 1.3),embeddings,3200129,0.941,0.8966,0.9163,True,False
+Embedding + Bi-LSTM,recurrente,1944897,0.9345,0.8964,0.9133,True,False
+BETO ajustado,transformer,109852418,0.957,0.9309,0.943,True,True
