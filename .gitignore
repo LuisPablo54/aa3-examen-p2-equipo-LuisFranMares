@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+# Modelos grandes (BETO): van a Hugging Face, no al repo
+*.safetensors
+*.bin
+*.pt
+checkpoints/
