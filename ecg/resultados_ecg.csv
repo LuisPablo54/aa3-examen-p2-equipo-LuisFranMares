@@ -1,0 +1,5 @@
+modelo,tipo,parametros,sensibilidad,especificidad,auc,cumple,elegido
+Línea base (clase más frecuente),linea base,0,0.0,1.0,0.5,False,False
+MLP 140→64→32→1,embeddings,11137,0.9832,1.0,0.998,True,False
+Conv1D pequeño,convolucional,1521,0.9784,0.9966,0.9979,True,True
+GRU(32),recurrente,3393,0.9856,0.9949,0.9965,True,False

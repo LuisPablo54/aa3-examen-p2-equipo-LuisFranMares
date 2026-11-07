@@ -14,7 +14,7 @@ Examen del Parcial II — IN1042 Aprendizaje Automático III (Otoño 2026, grupo
 
 | Problema | Modelo elegido | ¿Cumple? | Archivo / enlace |
 |---|---|---|---|
-| CardioRitmo (ECG) | _pendiente_ | _pendiente_ | `ecg/modelo/` |
+| CardioRitmo (ECG) | Conv1D pequeño (1,521 parámetros) | Sí: sensibilidad 0.978, especificidad 0.997 en prueba | [`ecg/modelo/modelo_ecg.keras`](ecg/modelo/modelo_ecg.keras) (55 KB) |
 | Compra Fácil Bajío (reseñas) | BETO ajustado (`dccuchile/bert-base-spanish-wwm-cased`) | Sí: exhaustividad 0.957, precisión 0.931 en prueba | ~440 MB, no cabe en GitHub: [huggingface.co/LuisPablo54/beto-resenas-negativas](https://huggingface.co/LuisPablo54/beto-resenas-negativas) |
 
 ## Estructura
